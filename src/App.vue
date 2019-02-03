@@ -4,10 +4,10 @@
       <body>
 
         <!--LINKS REDES SOCIALES-->
-        <div><img src="dist/img/face-icon.png" title="Siguenos en Facebook" width="40px" alt="facebook" class="link_face"></div>
-        <div><img src="./assets/img/google-icon.png" title="Siguenos en Google +" width="40px" alt="Google +" class="link_google"></div>
-        <div><img src="./assets/img/gm-icon.png" title="Escribenos un correo" width="40px" alt="Gmail" class="link_gm"></div>
-        <div><img src="./assets/img/tw-icon.png" title="Siguenos en Twitter" width="40px" alt="Twitter" class="link_tw"></div>
+        <div><img src="dist/assets/img/face-icon.png" title="Siguenos en Facebook" width="40px" alt="facebook" class="link_face"></div>
+        <div><img src="dist/assets/img/google-icon.png" title="Siguenos en Google +" width="40px" alt="Google +" class="link_google"></div>
+        <div><img src="dist/assets/img/gm-icon.png" title="Escribenos un correo" width="40px" alt="Gmail" class="link_gm"></div>
+        <div><img src="dist/assets/img/tw-icon.png" title="Siguenos en Twitter" width="40px" alt="Twitter" class="link_tw"></div>
 
         <!-- ENCABEZADO-->
         <nav>
