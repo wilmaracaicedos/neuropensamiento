@@ -2,7 +2,8 @@
 
 > Plataforma Neuropensamiento
 
-Demo creado por Wilmar Caicedo (wilmarcaicedo@hotmail.com) y Jonathan Rua (jonathanruagil92@gmail.com)
+Desarrollador Wilmar Caicedo (wilmarcaicedo@hotmail.com)
+Diseñador Jonathan Rua (jonathanruagil92@gmail.com)
 
 ## Build Setup
 
