@@ -4,10 +4,10 @@
       <body>
 
         <!--LINKS REDES SOCIALES-->
-        <div><img src="dist/assets/img/face-icon.png" title="Siguenos en Facebook" width="40px" alt="facebook" class="link_face"></div>
-        <div><img src="dist/assets/img/google-icon.png" title="Siguenos en Google +" width="40px" alt="Google +" class="link_google"></div>
-        <div><img src="dist/assets/img/gm-icon.png" title="Escribenos un correo" width="40px" alt="Gmail" class="link_gm"></div>
-        <div><img src="dist/assets/img/tw-icon.png" title="Siguenos en Twitter" width="40px" alt="Twitter" class="link_tw"></div>
+        <div><img src="dist/face-icon.png" title="Siguenos en Facebook" width="40px" alt="facebook" class="link_face"></div>
+        <div><img src="dist/google-icon.png" title="Siguenos en Google +" width="40px" alt="Google +" class="link_google"></div>
+        <div><img src="dist/gm-icon.png" title="Escribenos un correo" width="40px" alt="Gmail" class="link_gm"></div>
+        <div><img src="dist/tw-icon.png" title="Siguenos en Twitter" width="40px" alt="Twitter" class="link_tw"></div>
 
         <!-- ENCABEZADO-->
         <nav>
@@ -82,7 +82,7 @@
 
         <!--LOGO & TITULO NEUROPENSAMIENTO-->
         <div>
-          <img src="./assets/img/neuro.png" width="100%" alt="Logo Neuropensamiento" class="logo">
+          <img src="dist/neuro.png" width="100%" alt="Logo Neuropensamiento" class="logo">
         </div>
         <hr><hr>
 
@@ -112,40 +112,40 @@
           <ul>
             <ol class="v">
               <li>
-                <a href="#" title="Relación L<-p->P" class="boton" target="new"><img src="./assets/img/b1.png" width="240" height="60" ></a>
+                <a href="#" title="Relación L<-p->P" class="boton" target="new"><img src="dist/b1.png" width="240" height="60" ></a>
               </li>
               <li>
-                <a href="#" title="Fichas Técnicas" class="boton2" target="new"><img src="./assets/img/b2.png" width="240" height="60"></a>
+                <a href="#" title="Fichas Técnicas" class="boton2" target="new"><img src="dist/b2.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Mejoramiento Curricular" class="boton3" target="new"><img src="./assets/img/b3.png" width="240" height="60"></a>
+                <a href="#" title="Mejoramiento Curricular" class="boton3" target="new"><img src="dist/b3.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PAREB" class="boton4" target="new"><img src="./assets/img/b4.png" width="240" height="60"></a>
+                <a href="#" title="Programa PAREB" class="boton4" target="new"><img src="dist/b4.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PAREM" class="boton5" target="new"><img src="./assets/img/b5.png" width="240" height="60"></a>
+                <a href="#" title="Programa PAREM" class="boton5" target="new"><img src="dist/b5.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PARUN" class="boton6" target="new"><img src="./assets/img/b6.png" width="240" height="60"></a>
+                <a href="#" title="Programa PARUN" class="boton6" target="new"><img src="dist/b6.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PARES" class="boton7" target="new"><img src="./assets/img/b7.png" width="240" height="60"></a>
+                <a href="#" title="Programa PARES" class="boton7" target="new"><img src="dist/b7.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PCM" class="boton8" target="new"><img src="./assets/img/b8.png" width="240" height="60"></a>
+                <a href="#" title="Programa PCM" class="boton8" target="new"><img src="dist/b8.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Revista RIN" class="boton9" target="new"><img src="./assets/img/b9.png" width="240" height="60"></a>
+                <a href="#" title="Revista RIN" class="boton9" target="new"><img src="dist/b9.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PFCB ByM" class="boton10" target="new"><img src="./assets/img/b10.png" width="240" height="60"></a>
+                <a href="#" title="Programa PFCB ByM" class="boton10" target="new"><img src="dist/b10.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PFCE-S" class="boton11" target="new"><img src="./assets/img/b11.png" width="240" height="60"></a>
+                <a href="#" title="Programa PFCE-S" class="boton11" target="new"><img src="dist/b11.png" width="240" height="60"></a>
               </li>
               <li>
-                <a href="#" title="Programa PTDU" class="boton12" target="new"><img src="./assets/img/b12.png" width="240" height="60"></a>
+                <a href="#" title="Programa PTDU" class="boton12" target="new"><img src="dist/b12.png" width="240" height="60"></a>
               </li>
             </ol>
           </ul>
@@ -194,9 +194,7 @@ export default {
 
 <style <style lang="scss" scoped>
 
-#app {
-  background-image: url("./assets/img/background.png");
-}
+
 
 ol.v {list-style-type: none;}
 
@@ -256,7 +254,7 @@ h3 {color:#86CB7C;}
 
 @keyframes banner {
   0%, 30%{
-      background-image: url('./assets/img/banner/1.png');
+      background-image: url('/dist/1.png');
       opacity:1 ;
   }
   31%, 34% {
@@ -264,7 +262,7 @@ h3 {color:#86CB7C;}
   }
 
   35%, 65%{
-      background-image: url('./assets/img/banner/2.jpg');
+      background-image: url('/dist/2.jpg');
       opacity: 1;
   }
 
@@ -272,7 +270,7 @@ h3 {color:#86CB7C;}
   opacity: 0.1;
   }
   70%, 100%{
-      background-image: url('./assets/img/banner/3.jpg');
+      background-image: url('/dist/3.jpg');
       opacity: 1;
   }
 }
@@ -300,7 +298,7 @@ ul {
 nav ul{
 	list-style-type: none;
 	text-align: center;
-	background-image: url('./assets/img/foot.png');
+	background-image: url('/dist/foot.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 80px
