@@ -165,12 +165,12 @@
           </nav>
 
           <a class="black">Contactos:</a>
-          <p> Asociación Neuropensamiento
-          Dirección: Trv. 49 N° 59 – 73 s Bl. S, Int 3, Of. 412
-          Teléfono [Bogotá]: 57 1 + 715 67 44
-          Celular: 320 - 487 65 92
-          Skype: neuropensamient
-          Correo: lectura@neuropensamiento.com
+          <p> Asociación Neuropensamiento |
+              Dirección: Trv. 49 N° 59 – 73 s Bl. S, Int 3, Of. 412 |
+              Teléfono [Bogotá]: 57 1 + 715 67 44 |
+              Celular: 320 - 487 65 92 |
+              Skype: neuropensamiento |
+              Correo: lectura@neuropensamiento.com
           </p>
           <p id="footerBy">
             Developer wilmarcaicedo@hotmail.com & Designer jonathanruagil92@gmail.com
@@ -194,7 +194,9 @@ export default {
 
 <style <style lang="scss" scoped>
 
-
+#app {
+  background-image: url("https://wilmaracaicedos.github.io/neuropensamiento/dist/background.png");
+}
 
 ol.v {list-style-type: none;}
 
@@ -254,7 +256,7 @@ h3 {color:#86CB7C;}
 
 @keyframes banner {
   0%, 30%{
-      background-image: url('/dist/1.png');
+      background-image: url("https://wilmaracaicedos.github.io/neuropensamiento/dist/1.png");
       opacity:1 ;
   }
   31%, 34% {
@@ -262,7 +264,7 @@ h3 {color:#86CB7C;}
   }
 
   35%, 65%{
-      background-image: url('/dist/2.jpg');
+      background-image: url("https://wilmaracaicedos.github.io/neuropensamiento/dist/2.jpg");
       opacity: 1;
   }
 
@@ -270,7 +272,7 @@ h3 {color:#86CB7C;}
   opacity: 0.1;
   }
   70%, 100%{
-      background-image: url('/dist/3.jpg');
+      background-image: url("https://wilmaracaicedos.github.io/neuropensamiento/dist/3.jpg");
       opacity: 1;
   }
 }
@@ -298,7 +300,7 @@ ul {
 nav ul{
 	list-style-type: none;
 	text-align: center;
-	background-image: url('/dist/foot.png');
+	background-image: url('https://wilmaracaicedos.github.io/neuropensamiento/dist/foot.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 80px
